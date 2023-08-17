@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <!--- preloader --->
+
+    <div class="loader-bg">
+        <div class="loader">
+        </div>
+    </div>
+
+    <!--- header section --->
+
+    <header>
+        <a href="home.html" class="logo"><span>Prodigy</span> Infotech</a>
+        <div class="nav_menu" id="nav_menu">
+            <button class="close_btn" id="close_btn">
+                <i class='bx bx-x'></i>
+            </button>
+            <div class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <div id="HomeBtn">
+                    Contact &#x27F6
+                </div>
+            </div>
+            <button class="toggle_btn" id="toggle_btn">
+                <i class='bx bx-menu'></i>
+            </button>
+    </header>
+
+    <!---- home section ---->
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi!</h3>
+            <h2>I'm John Thomson</h2>
+            <h4>I am <span id="element"></span></h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit perspiciatis quas aliquam illum
+                asperiores cupiditate ipsum, maiores dolorem facilis impedit praesentium. Sed maxime consectetur
+                voluptas.</p>
+            <a href="home.html" class="Btn">Hire me </a>
+            <a href="home.html" class="Btn">Download cv <i class='bx bx-download'></i></a>
+        </div>
+
+        <div class="hero-img">
+            <img src="./assets/developer.png" alt="hero-icon">
+        </div>
+    </section>
+
+
+    <!--- about us section -->
+
+    <section class="about" id="about">
+        <h1 class="heading">About us</h1>
+        <div class="column">
+            <div class="image">
+                <img src="./assets/web.webp" alt="about-us">
+            </div>
+
+            <div class="content">
+                <h3>Introduce Me</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque voluptates libero nobis quis quam
+                    iste tempora architecto?
+                    Recusandae quod quam aperiam doloribus voluptatum in molestiae, possimus magnam? Autem, nostrum
+                    placeat?</p>
+                <div class="buttons">
+                    <a href="home.html" class="Btn"> see more &#x27F6</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--- skills secton--->
+
+    <section class="skills" id="skills">
+        <h1 class="heading"> Skills </h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="./assets/html5.png">
+                <h3>HTML5</h3>
+                <p>HyperText Markup Language (HTML) is the basic scripting language used by web browsers to render pages
+                    on the world wide web</p>
+            </div>
+
+            <div class="box">
+                <img src="./assets/css.svg">
+                <h3>CSS3</h3>
+                <p>CSS stands for Cascading Style Sheets. It is a style sheet language which is used to describe the
+                    look and formatting of a document written in markup language.
+                </p>
+            </div>
+
+            <div class="box">
+                <img src="./assets/js.png">
+                <h3>JavaScript</h3>
+                <p>avaScript is a dynamic computer programming language. It is lightweight and most commonly used as a
+                    part of web pages.</p>
+            </div>
+
+            <div class="box">
+                <img src="./assets/Bootstrap.png">
+                <h3>BootStrap</h3>
+                <p>Bootstrap is the most popular HTML, CSS and JavaScript framework for developing a responsive and
+                    mobile friendly website.</p>
+            </div>
+
+            <div class="box">
+                <img src="./assets/React-icon.svg.png">
+                <h3>React Js</h3>
+                <p>ReactJS is an open-source JavaScript library that is used for building user interfaces in a
+                    declarative and efficient way.</p>
+            </div>
+
+            <div class="box">
+                <img src="./assets/php.png">
+                <h3>PHP</h3>
+                <p>PHP is a server-side scripting language designed specifically for web development. It is open-source
+                    which means it is free to download and use.</p>
+            </div>
+
+            <div class="box">
+                <img src="./assets/photoshop.png">
+                <h3>Adobe Photoshop</h3>
+                <p>Photoshop is a photo editing and raster graphic design software which allows users to create, edit,
+                    and manipulate various graphics as well as digital art.</p>
+            </div>
+
+            <div class="box">
+                <img src="./assets/xd.png">
+                <h3>Adobe XD</h3>
+                <p>Adobe XD (also known as Adobe Experience Design) is a vector design tool for web and mobile
+                    applications, developed and published by Adobe Inc.</p>
+            </div>
+
+            <div class="box">
+                <img src="./assets/ai.png">
+                <h3>Adobe Illustrator</h3>
+                <p>Adobe Illustrator, computer-graphics application software produced by Adobe Inc. that allows users to
+                    create refined drawings, designs, and layouts.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--- services --->
+
+    <section class="services" id="services">
+        <h1 class="heading"> Services </h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="./assets/web-develop.jpg">
+                <h3>Web Development</h3>
+                <p>Web development, also known as website development, refers to the tasks associated with creating,
+                    building, and maintaining websites and web applications that run online on a browser.</p>
+                <a href="home.html" class="Btn"> see more &#x27F6</a>
+            </div>
+
+            <div class="box">
+                <img src="./assets/ui-ux.png">
+                <h3>UI/UX Development</h3>
+                <p>User interface (UI) design is the process designers use to build interfaces in software or
+                    computerized devices,
+                    focusing on looks or style. Designers aim to create interfaces which users find easy to use and
+                    pleasurable.
+                </p>
+                <a href="home.html" class="Btn"> see more &#x27F6</a>
+            </div>
+
+            <div class="box">
+                <img src="./assets/app-develop.jpg">
+                <h3>App Development</h3>
+                <p>Mobile application development is the process of creating software applications that run on a mobile
+                    device, and a typical
+                    mobile application utilizes a network connection to work with remote computing resources.</p>
+                <a href="home.html" class="Btn"> see more &#x27F6</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!----  portfolio section  ----->
+
+    <section class="portfolio" id="portfolio">
+        <h1 class="heading"> Portfolio </h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="./assets/portfolio1.jpg">
+                <a href="home.html" class="Btn"> Get Link &#x27F6</a>
+            </div>
+
+            <div class="box">
+                <img src="./assets/portfolio2.jpg">
+                <a href="home.html" class="Btn"> Get Link &#x27F6</a>
+            </div>
+
+            <div class="box">
+                <img src="./assets/portfolio3.jpg">
+                <a href="home.html" class="Btn"> Get Link &#x27F6</a>
+            </div>
+    </section>
+
+
+    <!--- contact us section --->
+
+    <section class="contact" id="contact">
+        <div class="image">
+            <img src="./assets/contact.png" alt="">
+        </div>
+
+        <form action="">
+            <h1 class="heading">Contact us</h1>
+
+            <div class="inputbox">
+                <input type="text" required>
+                <label><i class="ri-user-line"></i> Name</label>
+            </div>
+
+            <div class="inputbox">
+                <input type="email" required>
+                <label><i class="ri-mail-line"></i> Email</label>
+            </div>
+
+            <div class="inputbox">
+                <input type="number" required>
+                <label><i class="ri-phone-line"></i> Phone</label>
+            </div>
+
+            <div class="inputbox">
+                <textarea required name="" id="" cols="30" rows="10"></textarea>
+                <label><i class="ri-chat-4-line"></i> Message</label>
+            </div>
+            <input type="submit" class="Btn" value="send message">
+        </form>
+    </section>
+
+
+    <!--- Footer --->
+
+    <section class="footer" id="footer">
+        <div class="footer-box">
+            <h3 style="color: #eb2828;">Prodigy <span> Infotech</span></h3>
+            <h5>Connect with us</h5>
+            <div class="social">
+                <a href="#"><i class="ri-facebook-fill" style="color: #3528eb;"></i></a>
+                <a href="#"><i class="ri-linkedin-box-fill" style="color: #5147d4;"></i></a>
+                <a href="#"><i class="ri-instagram-fill" style="color: #ebcb28;"></i></a>
+                <a href="#"><i class="ri-youtube-fill" style="color: #eb2828;"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-box">
+            <h3>Menu Links</h3>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#review">Review</a></li>
+            <li><a href="#prices">Pricing</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </div>
+
+        <div class="footer-box">
+            <h3>Follow</h3>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Intagram</a></li>
+            <li><a href="#">Linkedin</a></li>
+            <li><a href="#">Youtube</a></li>
+            <li><a href="#">Twitter</a></li>
+        </div>
+
+        <div class="footer-box address">
+            <h3>Conatct</h3>
+            <span><i class="ri-map-pin-line"></i> Dehradun, India</span></i>
+            <span><i class="ri-mail-unread-line"></i> ProdigyInfotech@gmail.com</span></i>
+            <span><i class="ri-phone-line"></i> (91) 9234565639</span></i>
+        </div>
+
+    </section>
+
+    <div class="end-text">
+        <p>© Copyright 2023 <span>Prodigy Infotech</span>. All Rights Reserved.</p>
+    </div>
+
+
+    <!--- Scroll button --->
+
+    <!----  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="ri-arrow-up-line"></i></button>  -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class='bx bx-up-arrow-alt'></i></button>
+
+    <!--- js script source -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
